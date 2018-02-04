@@ -3,6 +3,8 @@ layout: post
 title:  "Hello"
 date:   2018-02-04 20:09:50 +0200
 category: posts
+permalink: /
+
 ---
 
 Hello. This is a test!
