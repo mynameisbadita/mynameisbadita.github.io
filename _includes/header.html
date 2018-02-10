@@ -3,7 +3,7 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <span class=""site-title" style='color:#232323'> hello </span> <a class="site-title" style='background-color:#232323; color: #DDDDDD' rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <span class=""site-title" style='color:#232323'> hello </span> <a class="site-title" style='float: none; background-color:#232323; color: #DDDDDD' rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {% if page_paths %}
       <nav class="site-nav">
